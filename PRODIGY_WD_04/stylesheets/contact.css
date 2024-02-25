@@ -1,0 +1,146 @@
+:root {
+    --background1: #191825;
+    --background2: #F3F8FF;
+    --color1: #E384FF;
+    --color2: #865DFF;
+}
+
+#section-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-cont {
+    padding: 40px;
+    width: 425px;
+    height: max-content;
+    background-color: var(--background1);
+    border: 2px solid var(--color1);
+    border-radius: 20px;
+    box-shadow: 0px 1px 20px 2px var(--color1);
+    animation: box-shadow-animation 2.5s linear 2s infinite;
+}
+
+#section-form .form-cont h1 {
+    margin-bottom: 10px;
+    color: var(--color1);
+    font-size: 35px;
+}
+
+#section-form .form-cont p {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+@keyframes box-shadow-animation {
+    0% {
+        box-shadow: 0px 1px 20px 0px var(--color1);
+    }
+
+    5% {
+        box-shadow: 0px 1px 20px 1px var(--color1);
+    }
+
+    10% {
+        box-shadow: 0px 1px 20px 2px var(--color1);
+    }
+
+    15% {
+        box-shadow: 0px 1px 20px 3px var(--color1);
+    }
+
+    20% {
+        box-shadow: 0px 1px 20px 4px var(--color1);
+    }
+
+    25% {
+        box-shadow: 0px 1px 25px 5px var(--color1);
+    }
+
+    30% {
+        box-shadow: 0px 1px 20px 6px var(--color1);
+    }
+
+    35% {
+        box-shadow: 0px 1px 20px 7px var(--color1);
+    }
+
+    40% {
+        box-shadow: 0px 1px 20px 8px var(--color1);
+    }
+
+    45% {
+        box-shadow: 0px 1px 20px 9px var(--color1);
+    }
+
+    50% {
+        box-shadow: 0px 1px 25px 10px var(--color1);
+    }
+
+    55% {
+        box-shadow: 0px 1px 20px 9px var(--color1);
+    }
+
+    60% {
+        box-shadow: 0px 1px 20px 8px var(--color1);
+    }
+
+    65% {
+        box-shadow: 0px 1px 20px 7px var(--color1);
+    }
+
+    70% {
+        box-shadow: 0px 1px 20px 6px var(--color1);
+    }
+
+    75% {
+        box-shadow: 0px 1px 25px 5px var(--color1);
+    }
+
+    80% {
+        box-shadow: 0px 1px 20px 4px var(--color1);
+    }
+
+    85% {
+        box-shadow: 0px 1px 20px 3px var(--color1);
+    }
+
+    90% {
+        box-shadow: 0px 1px 20px 2px var(--color1);
+    }
+
+    95% {
+        box-shadow: 0px 1px 20px 1px var(--color1);
+    }
+
+    100% {
+        box-shadow: 0px 1px 25px 0px var(--color1);
+    }
+}
+
+#email {
+    display: block;
+    width: 250px;
+    background-color: var(--background2);
+    color: #191825;
+}
+
+#message {
+    display: block;
+    height: 250px;
+    width: 250px;
+    background-color: var(--background2);
+    color: var(--background1);
+}
+
+#email,
+#message,
+#submit {
+    font-size: 16px;
+    padding: 10px;
+}
+
+#submit {
+    display: block;
+    background-color: var(--color2);
+}

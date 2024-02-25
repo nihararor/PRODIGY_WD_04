@@ -1,0 +1,100 @@
+:root {
+    --bg: white;
+    --text: black;
+}
+
+
+
+#nav-btns ul {
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 50px;
+
+}
+
+#text-cont {
+    margin-top: 70px;
+}
+
+#logo img {
+    height: 40px;
+}
+
+#nav-btns ul li:hover {
+    transform: scale(1.05);
+}
+
+#first-text {
+    font-size: 35px;
+}
+
+.container {
+    width: 60vw;
+    height: max-content;
+}
+
+#my-name {
+    font-size: 100px;
+    background: linear-gradient(90deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+#about-me {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 80%;
+    width: 70rem;
+    height: 10rem;
+}
+
+#buttons-cont ul {
+    gap: 40px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#buttons-cont ul li a button {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    color: var(--text);
+    background-color: var(--bg);
+}
+
+#email-btn {
+    border: 4.421px solid var(--1, #9358F7);
+}
+
+#linkedin-btn {
+    border: 4.421px solid var(--2, #6964DE);
+}
+
+#github-btn {
+    border: 4.421px solid var(--3, #F4426C);
+}
+
+#leetcode-btn {
+    border: 4.421px solid var(--4, #D24074);
+}
+
+#buttons-cont ul li a button:hover {
+    transform: scale(1.040);
+}
+
+#buttons-cont ul li a button>img {
+    width: 25px;
+    border-radius: 3px;
+}
