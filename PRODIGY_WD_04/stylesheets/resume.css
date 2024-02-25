@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ad2787;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  a.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #29d2cc;
+    color: #765152;
+    text-decoration: none;
+    border-radius: 5px;
+  }
